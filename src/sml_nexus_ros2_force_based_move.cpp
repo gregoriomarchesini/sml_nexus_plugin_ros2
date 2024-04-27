@@ -13,7 +13,6 @@
 #include <gazebo/physics/Model.hh>
 #include <gazebo/physics/World.hh>
 #include <gazebo/physics/Link.hh>
-#include <gazebo_plugins/gazebo_ros_planar_move.hpp>
 #include <gazebo_ros/conversions/builtin_interfaces.hpp>
 #include <gazebo_ros/conversions/geometry_msgs.hpp>
 #include <gazebo_ros/node.hpp>
@@ -29,6 +28,8 @@
 
 #include <memory>
 #include <string>
+
+#include "sml_nexus_plugin_ros2/sml_nexus_ros2_force_based_move.hpp"
 
 namespace gazebo_plugins
 {
