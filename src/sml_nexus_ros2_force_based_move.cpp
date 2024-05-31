@@ -343,7 +343,7 @@ void GazeboRosPlanarMovePrivate::OnUpdate(const gazebo::common::UpdateInfo & _in
       ignition::math::Vector3d force_world_frame  = relative_rotation.RotateVectorReverse(force_vector_);
       ignition::math::Vector3d torque_world_frame = relative_rotation.RotateVectorReverse(torque_vector_); // not needed for planar robot but left for consistency
 
-      // added in the world frame
+      // added in the local frame
       this->link_->AddRelativeForce(force_world_frame);
       this->link_->AddRelativeTorque(torque_world_frame);
     }
