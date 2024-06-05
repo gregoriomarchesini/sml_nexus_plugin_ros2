@@ -49,7 +49,7 @@ cd nexus_ws/src
 from the `src` folder install the following repos
 
 ```
-git clone https://github.com/gregoriomarchesini/sml_nexus_description_ros2
+git clone https://github.com/gregoriomarchesini/sml_nexus_plugin_ros2.git
 git clone https://github.com/gregoriomarchesini/sml_nexus_description_ros2.git
 git clone https://github.com/gregoriomarchesini/sml_nexus_tutorials_ros2.git
 ```
