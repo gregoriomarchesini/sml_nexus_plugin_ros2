@@ -65,20 +65,6 @@ You are now ready to run your nexus. Remember to source the workspace overlay
 ```
 source install/setup.sh
 ```
-and then 
-```
-ros2 launch sml_nexus_tutorials_ros2 sml_nexus_mas_gazebo.launch.py
-```
-
-You will see three robots 
-
-
-Once you spawned your robot you can publish to the `cmd_vel` topic for each agent.
-
-```
-ros2 topic pub agent1/cmd_vel geometry_msgs/msg/Twist '{linear: {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.2}}' -r 20
-```
-
 
 Happy coding! :smile:
 
