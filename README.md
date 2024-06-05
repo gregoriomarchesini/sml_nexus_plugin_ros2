@@ -44,7 +44,7 @@ If you haven't done so, create a ROS2 workspace
 
 ```
 mkdir -p nexus_ws/src
-cd src
+cd nexus_ws/src
 ```
 from the `src` folder install the following repos
 
