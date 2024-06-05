@@ -60,8 +60,12 @@ Then build the workspace
 cd ..
 colcon build --symlink-install
 ```
-You are now ready to run your nexus
+You are now ready to run your nexus. Remember to source the workspace overlay 
 
+```
+source install/setup.sh
+```
+and then 
 ```
 ros2 launch sml_nexus_tutorials_ros2 sml_nexus_mas_gazebo.launch.py
 ```
